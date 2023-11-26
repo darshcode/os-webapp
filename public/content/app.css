@@ -1,0 +1,106 @@
+.title {
+    color: #c23232;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.highlight{
+    color: #c23232;
+    font-weight: bold;
+}
+
+.text-center{
+    padding: 0 5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #b82020;
+    transition: .3s ease-in-out;
+}
+
+.lead{
+    font-size: 1.7em;
+}
+
+.col{
+    margin: 28px 0;
+}
+
+#copyright{
+    color: #fff;
+}
+
+.thin-width{
+    margin: 0 20%;
+}
+
+#submitBtn{
+    background-color: #ffffff;
+    color: #c23232;
+    font-weight: bold;
+    padding: 5px 18px;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px 2px 2px;
+    transition: .4s ease;
+}
+#submitBtn:hover{
+    color: #b82020;
+    border: 1px solid #b82020;
+}
+
+.btn-success{
+    background-color: #c23232;
+    border: 2px solid;
+}
+.btn-success:hover{
+    background-color: #b82020;
+}
+
+.fa-user, .fa-lock{
+    padding: 10px;
+}
+/* 
+Fade in animation from:
+https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load */
+.homepage-elements{
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
